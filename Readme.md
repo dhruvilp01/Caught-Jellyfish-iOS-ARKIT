@@ -1,13 +1,13 @@
-## iOS ARKit Game -> Caught Jellyfish
+# iOS ARKit Game -> Caught Jellyfish
 
-#  ARKit-HitGame
+##  ARKit-HitGame
 
 This is very simple game in iOS using ARKit.
 This is for the begineer, who want to learn ARKit in iOS
 
 The code is very clean and very easy to understand.
 
-# Installation:
+## Installation:
 
 	Download the project,
 	Change the unique Identifier id with your id,
