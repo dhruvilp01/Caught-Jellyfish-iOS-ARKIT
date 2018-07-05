@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920EA55749F1F0D5DDADBFAA /* Pods_ARkit_HitGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF432A1F346668CD1A13BC08 /* Pods_ARkit_HitGame.framework */; };
 		A10C6C5320EE5C4500607DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C6C5220EE5C4500607DB1 /* AppDelegate.swift */; };
 		A10C6C5520EE5C4500607DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C6C5420EE5C4500607DB1 /* ViewController.swift */; };
 		A10C6C5820EE5C4500607DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10C6C5620EE5C4500607DB1 /* Main.storyboard */; };
 		A10C6C5A20EE5C4500607DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10C6C5920EE5C4500607DB1 /* Assets.xcassets */; };
 		A10C6C5D20EE5C4500607DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10C6C5B20EE5C4500607DB1 /* LaunchScreen.storyboard */; };
+		A1163F6F20EE681A00B4BC7A /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = A1163F6E20EE681900B4BC7A /* Textures */; };
+		A1163F8820EE75A800B4BC7A /* model.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A1163F8720EE75A800B4BC7A /* model.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,12 @@
 		A10C6C5920EE5C4500607DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10C6C5C20EE5C4500607DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A10C6C5E20EE5C4500607DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1163F6E20EE681900B4BC7A /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Textures; sourceTree = "<group>"; };
+		A1163F8720EE75A800B4BC7A /* model.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = model.scnassets; sourceTree = "<group>"; };
+		A1163F8A20EE765A00B4BC7A /* model.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = model.scnassets; sourceTree = "<group>"; };
+		BF432A1F346668CD1A13BC08 /* Pods_ARkit_HitGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARkit_HitGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44904237C0DAEA0A4F309FA /* Pods-ARkit-HitGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARkit-HitGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARkit-HitGame/Pods-ARkit-HitGame.release.xcconfig"; sourceTree = "<group>"; };
+		DB8ABFB181DE5533F6A5F5E4 /* Pods-ARkit-HitGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARkit-HitGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARkit-HitGame/Pods-ARkit-HitGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +38,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920EA55749F1F0D5DDADBFAA /* Pods_ARkit_HitGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CE50C41D638168A4ED75E52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8ABFB181DE5533F6A5F5E4 /* Pods-ARkit-HitGame.debug.xcconfig */,
+				D44904237C0DAEA0A4F309FA /* Pods-ARkit-HitGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A10C6C4620EE5C4500607DB1 = {
 			isa = PBXGroup;
 			children = (
 				A10C6C5120EE5C4500607DB1 /* ARkit-HitGame */,
 				A10C6C5020EE5C4500607DB1 /* Products */,
+				1CE50C41D638168A4ED75E52 /* Pods */,
+				F9F52F89E3B59DAAAD38A34D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +78,22 @@
 				A10C6C5220EE5C4500607DB1 /* AppDelegate.swift */,
 				A10C6C5420EE5C4500607DB1 /* ViewController.swift */,
 				A10C6C5620EE5C4500607DB1 /* Main.storyboard */,
+				A1163F6E20EE681900B4BC7A /* Textures */,
 				A10C6C5920EE5C4500607DB1 /* Assets.xcassets */,
 				A10C6C5B20EE5C4500607DB1 /* LaunchScreen.storyboard */,
 				A10C6C5E20EE5C4500607DB1 /* Info.plist */,
+				A1163F8A20EE765A00B4BC7A /* model.scnassets */,
+				A1163F8720EE75A800B4BC7A /* model.scnassets */,
 			);
 			path = "ARkit-HitGame";
+			sourceTree = "<group>";
+		};
+		F9F52F89E3B59DAAAD38A34D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF432A1F346668CD1A13BC08 /* Pods_ARkit_HitGame.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A10C6C6120EE5C4500607DB1 /* Build configuration list for PBXNativeTarget "ARkit-HitGame" */;
 			buildPhases = (
+				57E9BC771945454AD43A4F9B /* [CP] Check Pods Manifest.lock */,
 				A10C6C4B20EE5C4500607DB1 /* Sources */,
 				A10C6C4C20EE5C4500607DB1 /* Frameworks */,
 				A10C6C4D20EE5C4500607DB1 /* Resources */,
+				F9232AF8D7C2616B3884DB12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,7 +125,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Dhruvil;
 				TargetAttributes = {
 					A10C6C4E20EE5C4500607DB1 = {
@@ -125,11 +159,52 @@
 			files = (
 				A10C6C5D20EE5C4500607DB1 /* LaunchScreen.storyboard in Resources */,
 				A10C6C5A20EE5C4500607DB1 /* Assets.xcassets in Resources */,
+				A1163F6F20EE681A00B4BC7A /* Textures in Resources */,
 				A10C6C5820EE5C4500607DB1 /* Main.storyboard in Resources */,
+				A1163F8820EE75A800B4BC7A /* model.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57E9BC771945454AD43A4F9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARkit-HitGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9232AF8D7C2616B3884DB12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARkit-HitGame/Pods-ARkit-HitGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Each/Each.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Each.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARkit-HitGame/Pods-ARkit-HitGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A10C6C4B20EE5C4500607DB1 /* Sources */ = {
@@ -177,6 +252,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +260,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -211,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -234,6 +311,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +319,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -262,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,6 +351,7 @@
 		};
 		A10C6C6220EE5C4500607DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8ABFB181DE5533F6A5F5E4 /* Pods-ARkit-HitGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +367,7 @@
 		};
 		A10C6C6320EE5C4500607DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44904237C0DAEA0A4F309FA /* Pods-ARkit-HitGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
